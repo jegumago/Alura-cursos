@@ -10,14 +10,23 @@ header{
     width:940px;
     position: relative;
     margin: 0 auto;
-
 }
 
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
 .centrado{
-    margin: auto 0 ;
-    padding-left: 50px;
+    margin: 0px auto;
+    width: 600px;
+    display: block;
+    text-align: center;
 }
-
+table{
+    margin: 0px auto;
+}
 nav{
     position: absolute;
     top: 110px;
@@ -108,7 +117,7 @@ footer{
 }
 
 form{
-    margin: 40px 0;
+    margin: 40px 20px;
 
 }
 
@@ -117,14 +126,13 @@ form label, form legend{
 
     display: block;
     font-size: 20px;
-    margin: 0 0 10px;
+    margin: 20px 20px 10px;
 }
 
 .input-padron{
     display: block;
-    margin: 0 0 20px;
-    padding: 5px 25px;
-    width: 50%;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .checkbox{
@@ -132,8 +140,9 @@ form label, form legend{
 }
 
 .enviar{
-    width: 40%;
-    padding: 15px 0 ;
+    width: 100%;
+    padding: 15px 0px;
+    margin: 0px auto;
     font-size: 18px;
     font-weight: bold;
     color: white;
