@@ -12,6 +12,12 @@ header{
     margin: 0 auto;
 
 }
+
+.centrado{
+    margin: auto 0 ;
+    padding-left: 50px;
+}
+
 nav{
     position: absolute;
     top: 110px;
